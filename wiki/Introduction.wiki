@@ -1,0 +1,14 @@
+#labels 总结介绍
+#FQueue介绍
+
+= Introduction =
+
+FQueue是一个高性能的队列消息系统。兼容memcached协议，能用memcached的语言都可以良好的与它通信。
+
+
+= 特性 =
+
+  * 基于磁盘持久化存储
+  * 支持memcached协议
+  * 支持多队列，密码验证功能
+  * 高性能，每秒数十万qps
