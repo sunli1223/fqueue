@@ -26,6 +26,12 @@ get size|queuename\r\n
 {{{
 get clear|queuename|password\r\n
 }}}
+==重新加载权限配置==
+重新加载配置文件设置的权限信息：
+{{{
+get reload|queuename|password\r\n
+}}}
+只需要任何一个queuename,password即可。
 = 关于性能 =
 
 = 监控 =
