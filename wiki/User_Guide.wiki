@@ -11,7 +11,7 @@ add queuename_password flags exptime <bytes>\r\n
 {{{
 set queuename_password flags exptime <bytes>\r\n
 <data block>\r\n
-}}
+}}}
 == 出队 ==
 {{{
 get queuename_password\r\n
