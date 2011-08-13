@@ -32,6 +32,15 @@ get clear|queuename|password\r\n
 get reload|queuename|password\r\n
 }}}
 只需要任何一个queuename,password即可。
+==JVM监控信息==
+获取可以监控JVM的监控信息
+{{{
+get monitor|items\r\n
+}}}
+items选项可以是
+{{{
+fileDescriptor,tomcat,load,allThreadsCount,peakThreadCount,daemonThreadCount,totalStartedThreadCount,deadLockCount,heapMemory,noHeapMemory,memory,classCount,GCTime,memoryPoolCollectionUsage,memoryPoolUsage,memoryPoolPeakUsage
+}}}
 = 关于性能 =
 
 = 监控 =
