@@ -17,9 +17,14 @@ set queuename_password flags exptime <bytes>\r\n
 get queuename_password\r\n
 }}}
 == 获取队列大小 ==
-获取队列大小只需队列名，无需密码
+获取队列大小只需队列名，无需密码：
 {{{
 get size|queuename\r\n
+}}}
+==清空==
+清空某个队列的所有数据：
+{{{
+get clear|queuename|password\r\n
 }}}
 = 关于性能 =
 
