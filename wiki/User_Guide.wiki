@@ -52,6 +52,34 @@ fileDescriptor,tomcat,load,allThreadsCount,peakThreadCount,daemonThreadCount,tot
 {{{
 stats\r\n
 }}}
+比如会输出：
+{{{
+stats
+STAT bytes_written 80513657
+STAT connection_structures 0
+STAT bytes 0
+STAT total_items 0
+STAT total_connections 8986
+STAT rusage_system 0.0
+STAT rusage_user 21
+STAT uptime 89923
+STAT current_bytes 0
+STAT pid 14
+STAT get_hits 693687
+STAT curr_items 0
+STAT free_bytes 300950568
+STAT version 0.1
+STAT cmd_get 719106
+STAT time 1313230151
+STAT cmd_set 686142
+STAT threads 16
+STAT limit_maxbytes 0
+STAT bytes_read 57971278
+STAT curr_connections 37
+STAT system_load 0.67
+STAT get_misses 25419
+END
+}}}
 = 关于性能 =
 
 = 监控 =
