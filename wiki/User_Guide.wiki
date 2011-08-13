@@ -4,14 +4,20 @@
     FQueue的协议基于Memcached协议。
 == 入队 ==
 {{{
-add queuename_password flags exptime <bytes>\r\n
+add queuename_password[_其他任意字符] flags exptime <bytes>\r\n
 <data block>\r\n
 }}}
 或者：
 {{{
-set queuename_password flags exptime <bytes>\r\n
+set queuename_password[_其他任意字符] flags exptime <bytes>\r\n
 <data block>\r\n
 }}}
+[_其他任意字符]是可选的，对于最终的存储并不会有任何影响，在FQueue内部会自动忽略。比如：
+{{{
+add queuename_password_123333 flags exptime <bytes>\r\n
+<data block>\r\n
+}}}
+通过使用增加后缀的方式，可以实现client根据key做hash，实现分布式。
 == 出队 ==
 {{{
 get queuename_password\r\n
