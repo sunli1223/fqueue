@@ -2,19 +2,25 @@
 
 = 协议介绍 =
     FQueue的协议基于Memcached协议。
-    == 入队 ==
-       {{{
-       add queuename_password flags exptime <bytes>\r\n
-       <data block>\r\n
-        }}}
-       或者：
-       {{{
-       set queuename_password flags exptime <bytes>\r\n
-       <data block>\r\n
-       }}
-    == 出队 ==
-
-
+== 入队 ==
+{{{
+add queuename_password flags exptime <bytes>\r\n
+<data block>\r\n
+}}}
+或者：
+{{{
+set queuename_password flags exptime <bytes>\r\n
+<data block>\r\n
+}}
+== 出队 ==
+{{{
+get queuename_password\r\n
+}}}
+== 获取队列大小 ==
+获取队列大小只需队列名，无需密码
+{{{
+get size|queuename\r\n
+}}}
 = 关于性能 =
 
 = 监控 =
