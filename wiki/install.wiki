@@ -1,8 +1,12 @@
 #summary One-sentence summary of this page.
 
 = 部署 =
+==JAVA环境==
+安装jdk6
+==部署Fqueue==
+* 直接从google code下载压缩包，解压后./run.sh start 即可运行
+* svn check out出源代码，用maven 的mvn package即可打包出上一步使用的压缩包
 
-Add your content here.
 
 
 = 配置 =
