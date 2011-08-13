@@ -4,11 +4,7 @@
 ==部署Fqueue==
  # 直接从google code下载压缩包，解压后./run.sh start 即可运行
  # svn check out出源代码，用maven 的mvn package即可打包出上一步使用的压缩包
-
-
-
 = 配置 =
-
 Fqueue的配置文件位于conf/config.properties,默认配置：
 {{{
 port=12000
@@ -23,3 +19,5 @@ authorization=key|abc@@bbs|pass
 {{{
    队列1|队列1的密码@@队列2|队列2的密码@@……
 }}}
+=JVM启动配置=
+关于JVM的启动配置可以在./run.sh中修改
