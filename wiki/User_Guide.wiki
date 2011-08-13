@@ -79,6 +79,16 @@ STAT system_load 0.67
 STAT get_misses 25419
 END
 }}}
+= 使用 =
+==PHP使用==
+{{{
+$mem=new Memcache();
+$mem->connect('127.0.0.1',12000);
+$mem->add('queuename_password',$message,0,0);
+$msg=$mem->get('queuename_password');
+echo $msg;
+}}}
+==JAVA使用==
 = 关于性能 =
 
 = 监控 =
