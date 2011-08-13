@@ -1,4 +1,4 @@
-#labels 总结介绍
+#labels 总体介绍
 #FQueue介绍
 
 = Introduction =
