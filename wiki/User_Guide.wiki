@@ -41,6 +41,11 @@ items选项可以是
 {{{
 fileDescriptor,tomcat,load,allThreadsCount,peakThreadCount,daemonThreadCount,totalStartedThreadCount,deadLockCount,heapMemory,noHeapMemory,memory,classCount,GCTime,memoryPoolCollectionUsage,memoryPoolUsage,memoryPoolPeakUsage
 }}}
+==stats==
+与memcached同
+{{{
+stats\r\n
+}}}
 = 关于性能 =
 
 = 监控 =
