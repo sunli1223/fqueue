@@ -3,8 +3,10 @@
 = 协议介绍 =
     FQueue的协议基于Memcached协议。
     == 入队 ==
-       {{{add queuename_password flags exptime <bytes>\r\n
-       <data block>\r\n}}}
+       {{{
+        add queuename_password flags exptime <bytes>\r\n
+       <data block>\r\n
+        }}}
        或者：
        set queuename_password flags exptime <bytes>\r\n
        <data block>\r\n
