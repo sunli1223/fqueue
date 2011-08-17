@@ -15,7 +15,7 @@ authorization=key|abc@@bbs|pass
 }}}
  # port Fqueue的启动端口
  # path Fqueue的数据在磁盘上的存储目录
- # logsize Fqueue在存储数据到磁盘上时，每个文件的最大大小（单位MB）
+ # logsize Fqueue在存储数据到磁盘上时，每个文件的最大大小（单位MB）,logsize不要设置太大，一般100M以内吧。推荐用40左右的大小。
  # authorization 权限配置信息格式
 {{{
 队列1|队列1的密码@@队列2|队列2的密码@@……
