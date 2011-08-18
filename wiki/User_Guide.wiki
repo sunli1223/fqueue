@@ -90,6 +90,7 @@ $msg=$mem->get('queuename_password');
 echo $msg;
 }}}
 ==JAVA使用==
+==JAVAJ进程内使用（性能最高）==
 = 关于性能 =
 
 = 监控 =
