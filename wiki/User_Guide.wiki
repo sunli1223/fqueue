@@ -91,7 +91,8 @@ $msg=$mem->get('queuename_password');
 echo $msg;
 }}}
 ==JAVA使用==
-==JAVAJ进程内使用（性能最高）==
+==JAVA进程内使用（性能最高）==
+Fqueue的底层FSQueue可以直接在java应用中，作为嵌入式的持久化队列使用
 = 关于性能 =
 
 = 监控 =
