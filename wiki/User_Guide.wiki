@@ -1,6 +1,7 @@
 #labels 使用指南
 = 协议介绍 =
     FQueue的协议基于Memcached协议。
+注意：目前Fqueue会自动忽略flag参数，也就是说不支持客户端的压缩、自动序列化和反序列化。
 == 入队 ==
 {{{
 add queuename_password[_其他任意字符] flags exptime <bytes>\r\n
