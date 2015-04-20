@@ -4,6 +4,7 @@
 
 FQueue是一个高性能、基于磁盘持久存储的队列消息系统。兼容memcached协议，能用memcached的语言都可以良好的与它通信。
 FQueue为你提供一个不需要特别优化，高性能的一个消息系统。
+[ppt介绍](http://www.slideshare.net/slideshow/embed_code/10345815)
 
 
 ### 特性 
@@ -141,8 +142,6 @@ for($i=0;$i<30;$i++){
 335461
 
 ```
-
-<iframe src="http://www.slideshare.net/slideshow/embed_code/10345815" width="700px" height="500px" frameborder="0" scrolling="no"></iframe>
 
 
 
